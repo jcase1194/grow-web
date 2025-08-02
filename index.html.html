@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grow Talent – Recruitment for Startups</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      color: white;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #111;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 2rem;
+      z-index: 1000;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white;
+    }
+    .logo span {
+      color: #3498db;
+    }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #3498db;
+    }
+    header {
+      padding: 6rem 2rem 2rem;
+      text-align: center;
+      margin-top: 3rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+    }
+    h1 span {
+      color: #3498db;
+    }
+    p.tagline {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #ccc;
+      margin-top: 1rem;
+      text-align: left;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: white;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background-color: #3498db;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo"><span style="color: #3498db;">Grow</span> <span style="color: white;">Talent</span></div>
+    <div class="nav-links" style="flex: 1; display: flex; justify-content: center; gap: 2rem;">
+      <a href="#about" style="color: #3498db;">About</a>
+      <a href="#job-titles" style="color: #3498db;">Services</a>
+      <a href="#contact" style="color: #3498db;">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <div style="text-align: left; max-width: 800px; margin: 0 auto;">
+      <p class="tagline"><span style='color: #3498db;'>Growing</span> Seed to Series B startups with exceptional talent</p>
+      <p style="font-size: 1.2rem; color: #aaa; margin-top: 0.25rem; text-align: left;">We help high-growth startups hire with velocity and build teams that scale</p>
+      </div>
+  </header>
+
+  <section id="about">
+    <h2>About <span style='color: #3498db;'>Us</span></h2>
+    <p>Founded with 20 years of collective experience building teams at startups, Grow Talent is the arm between high-growth startups and the best-fit talent on the market.</p>
+    <p>We understand what it takes to compete for talent, and we know how to shape unique go-to-market and hiring processes that enable businesses to win.</p>
+  </section>
+<section id="job-titles" style="padding-top: 1rem; padding-bottom: 2rem;">
+    <h2 style="text-align: left; color: white; margin: 0 2rem 1rem 2rem;">Who we <span style='color: #3498db;'>hire</span></h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; max-width: 1000px; margin: auto;">
+      <div style="background-color: #2a2a2a; padding: 2rem; border-radius: 8px; text-align: center; ">Backend Engineer</div>
+      <div style="background-color: #2a2a2a; padding: 2rem; border-radius: 8px; text-align: center; ">Frontend Engineer</div>
+      <div style="background-color: #2a2a2a; padding: 2rem; border-radius: 8px; text-align: center;">Full-stack Engineer</div>
+      <div style="background-color: #2a2a2a; padding: 2rem; border-radius: 8px; text-align: center;">ML Engineer</div>
+      <div style="background-color: #2a2a2a; padding: 2rem; border-radius: 8px; text-align: center;">Data Scientist</div>
+      <div style="background-color: #2a2a2a; padding: 2rem; border-radius: 8px; text-align: center;">AI Engineer</div>
+    </div>
+
+    <h2 style="text-align: left; color: white; margin: 5rem 2rem 1rem 2rem;">How we <span style='color: #3498db;'>partner</span></h2>
+    <div style="display: flex; justify-content: space-between; gap: 2rem; margin-top: 2rem; max-width: 1000px; margin-left: 2rem; margin-right: 2rem;">
+  <div style="flex: 1; background-color: #2a2a2a; padding: 3rem; border-radius: 10px; text-align: center; font-size: 1.5rem;">
+  <strong>Contingency</strong>
+  <p style='margin-top: 1rem; font-size: 1rem; color: #ccc;'>Review and interview candidates with no commitment. Cost is only applicable after a hire is made.</p>
+</div>
+  <div style="flex: 1; background-color: #2a2a2a; padding: 3rem; border-radius: 10px; text-align: center; font-size: 1.5rem;">
+  <strong>Retainer</strong>
+  <p style='margin-top: 1rem; font-size: 1rem; color: #ccc;'>Pay an upfront fee to prioritize your hiring with a dedicated recruiter or two. Reduced fee upon hire.</p>
+</div>
+  <div style="flex: 1; background-color: #2a2a2a; padding: 3rem; border-radius: 10px; text-align: center; font-size: 1.5rem;">
+  <strong>Embedded</strong>
+  <p style='margin-top: 1rem; font-size: 1rem; color: #ccc;'>Retain a recruiter that is fully plugged in to your talent acquisition process, focused on hiring and putting systems in place.</p>
+</div>
+</div>
+      
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form" action="https://formspree.io/f/mwkgljzj" method="POST">
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    Contact us at: <a href="mailto:james@growtalent.io" style="color:#3498db">james@growtalent.io</a><br />
+    &copy; 2025 Grow Talent
+  </footer>
+</body>
+</html>
