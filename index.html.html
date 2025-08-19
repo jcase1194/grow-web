@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,27 +7,30 @@
   <style>
     html {
       scroll-behavior: smooth;
+      font-size: 120%; /* Increase base font size */
     }
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       background-color: #1e1e1e;
       color: white;
+      font-size: 1.25rem; /* Bigger base text */
     }
     nav {
       position: fixed;
       top: 0;
       width: 100%;
       background-color: #111;
-      padding: 1rem 2rem;
+      padding: 1.5rem 2rem;
       display: flex;
       justify-content: flex-start;
       align-items: center;
       gap: 2rem;
       z-index: 1000;
+      font-size: 1.25rem;
     }
     .logo {
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-weight: bold;
       color: white;
     }
@@ -43,44 +45,46 @@
       color: #fff;
       text-decoration: none;
       font-weight: bold;
+      font-size: 1.25rem;
     }
     nav a:hover {
       color: #3498db;
     }
     header {
-      padding: 6rem 2rem 2rem;
+      padding: 6rem 1rem 3rem;
       text-align: center;
       margin-top: 3rem;
     }
     h1 {
-      font-size: 2.5rem;
+      font-size: 3.5rem;
       margin: 0.5rem 0;
     }
     h1 span {
       color: #3498db;
     }
     p.tagline {
-      font-size: 3rem;
+      font-size: 4rem;
       font-weight: bold;
       color: #ccc;
       margin-top: 1rem;
       text-align: left;
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
+      max-width: 100%;
+      margin-left: 1rem;
+      margin-right: 1rem;
     }
     section {
-      padding: 4rem 2rem;
-      max-width: 800px;
-      margin: auto;
+      padding: 3rem 1rem;
+      max-width: 100%;
+      margin: 0 1rem;
+      font-size: 1.5rem;
     }
     h2 {
       color: white;
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin-bottom: 1rem;
     }
     ul {
-      padding-left: 1.5rem;
+      padding-left: 1.25rem;
     }
     .contact-form {
       display: flex;
@@ -88,24 +92,24 @@
       gap: 1rem;
     }
     .contact-form input, .contact-form textarea {
-      padding: 0.75rem;
+      padding: 1rem;
       border: none;
       border-radius: 5px;
-      font-size: 1rem;
+      font-size: 1.25rem;
     }
     .contact-form button {
       background-color: #3498db;
       color: white;
-      padding: 0.75rem;
+      padding: 1rem;
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      font-size: 1rem;
+      font-size: 1.25rem;
     }
     footer {
       text-align: center;
       padding: 2rem;
-      font-size: 0.9rem;
+      font-size: 1.25rem;
       color: #888;
     }
   </style>
@@ -121,9 +125,9 @@
   </nav>
 
   <header>
-    <div style="text-align: left; max-width: 800px; margin: 0 auto;">
+    <div style="text-align: left; max-width: 100%; margin: 0 1rem;">
       <p class="tagline"><span style='color: #3498db;'>Growing</span> Seed to Series B startups with exceptional talent</p>
-      <p style="font-size: 1.2rem; color: #aaa; margin-top: 0.25rem; text-align: left;">We help high-growth startups hire with velocity and build teams that scale</p>
+      <p style="font-size: 1.75rem; color: #aaa; margin-top: 0.5rem; text-align: left;">We help high-growth startups hire with velocity and build teams that scale</p>
       </div>
   </header>
 
@@ -133,8 +137,8 @@
     <p>We understand what it takes to compete for talent, and we know how to shape unique go-to-market and hiring processes that enable businesses to win.</p>
   </section>
 <section id="job-titles" style="padding-top: 1rem; padding-bottom: 2rem;">
-    <h2 style="text-align: left; color: white; margin: 0 2rem 1rem 2rem;">Who we <span style='color: #3498db;'>hire</span></h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; max-width: 1000px; margin: auto;">
+    <h2 style="text-align: left; color: white; margin: 0 1rem 1rem 1rem; font-size: 2.5rem;">Who we <span style='color: #3498db;'>hire</span></h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; max-width: 100%; margin: 0 1rem; font-size: 1.5rem;">
       <div style="background-color: #2a2a2a; padding: 2rem; border-radius: 8px; text-align: center; ">Backend Engineer</div>
       <div style="background-color: #2a2a2a; padding: 2rem; border-radius: 8px; text-align: center; ">Frontend Engineer</div>
       <div style="background-color: #2a2a2a; padding: 2rem; border-radius: 8px; text-align: center;">Full-stack Engineer</div>
@@ -143,19 +147,19 @@
       <div style="background-color: #2a2a2a; padding: 2rem; border-radius: 8px; text-align: center;">AI Engineer</div>
     </div>
 
-    <h2 style="text-align: left; color: white; margin: 5rem 2rem 1rem 2rem;">How we <span style='color: #3498db;'>partner</span></h2>
-    <div style="display: flex; justify-content: space-between; gap: 2rem; margin-top: 2rem; max-width: 1000px; margin-left: 2rem; margin-right: 2rem;">
-  <div style="flex: 1; background-color: #2a2a2a; padding: 3rem; border-radius: 10px; text-align: center; font-size: 1.5rem;">
+    <h2 style="text-align: left; color: white; margin: 3rem 1rem 1rem 1rem; font-size: 2.5rem;">How we <span style='color: #3498db;'>partner</span></h2>
+    <div style="display: flex; justify-content: space-between; gap: 1.5rem; margin-top: 1.5rem; max-width: 100%; margin-left: 1rem; margin-right: 1rem; font-size: 1.5rem;">
+  <div style="flex: 1; background-color: #2a2a2a; padding: 2.5rem; border-radius: 10px; text-align: center;">
   <strong>Contingency</strong>
-  <p style='margin-top: 1rem; font-size: 1rem; color: #ccc;'>Review and interview candidates with no commitment. Cost is only applicable after a hire is made.</p>
+  <p style='margin-top: 1rem; font-size: 1.25rem; color: #ccc;'>Review and interview candidates with no commitment. Cost is only applicable after a hire is made.</p>
 </div>
-  <div style="flex: 1; background-color: #2a2a2a; padding: 3rem; border-radius: 10px; text-align: center; font-size: 1.5rem;">
+  <div style="flex: 1; background-color: #2a2a2a; padding: 2.5rem; border-radius: 10px; text-align: center;">
   <strong>Retainer</strong>
-  <p style='margin-top: 1rem; font-size: 1rem; color: #ccc;'>Pay an upfront fee to prioritize your hiring with a dedicated recruiter or two. Reduced fee upon hire.</p>
+  <p style='margin-top: 1rem; font-size: 1.25rem; color: #ccc;'>Pay an upfront fee to prioritize your hiring with a dedicated recruiter or two. Reduced fee upon hire.</p>
 </div>
-  <div style="flex: 1; background-color: #2a2a2a; padding: 3rem; border-radius: 10px; text-align: center; font-size: 1.5rem;">
+  <div style="flex: 1; background-color: #2a2a2a; padding: 2.5rem; border-radius: 10px; text-align: center;">
   <strong>Embedded</strong>
-  <p style='margin-top: 1rem; font-size: 1rem; color: #ccc;'>Retain a recruiter that is fully plugged in to your talent acquisition process, focused on hiring and putting systems in place.</p>
+  <p style='margin-top: 1rem; font-size: 1.25rem; color: #ccc;'>Retain a recruiter that is fully plugged in to your talent acquisition process, focused on hiring and putting systems in place.</p>
 </div>
 </div>
       
